@@ -1,23 +1,24 @@
 {
   "files": {
-    "main.css": "/upgraded-umbrella/static/css/main.a617e044.chunk.css",
-    "main.js": "/upgraded-umbrella/static/js/main.afb137cc.chunk.js",
-    "main.js.map": "/upgraded-umbrella/static/js/main.afb137cc.chunk.js.map",
-    "runtime-main.js": "/upgraded-umbrella/static/js/runtime-main.bbe0b7fe.js",
-    "runtime-main.js.map": "/upgraded-umbrella/static/js/runtime-main.bbe0b7fe.js.map",
-    "static/js/2.10fe67c3.chunk.js": "/upgraded-umbrella/static/js/2.10fe67c3.chunk.js",
-    "static/js/2.10fe67c3.chunk.js.map": "/upgraded-umbrella/static/js/2.10fe67c3.chunk.js.map",
-    "static/js/3.b2acec1b.chunk.js": "/upgraded-umbrella/static/js/3.b2acec1b.chunk.js",
-    "static/js/3.b2acec1b.chunk.js.map": "/upgraded-umbrella/static/js/3.b2acec1b.chunk.js.map",
+    "main.css": "/upgraded-umbrella/static/css/main.b4756b6a.chunk.css",
+    "main.js": "/upgraded-umbrella/static/js/main.aa0b7100.chunk.js",
+    "main.js.map": "/upgraded-umbrella/static/js/main.aa0b7100.chunk.js.map",
+    "runtime-main.js": "/upgraded-umbrella/static/js/runtime-main.a67b3e8c.js",
+    "runtime-main.js.map": "/upgraded-umbrella/static/js/runtime-main.a67b3e8c.js.map",
+    "static/js/2.2eb9ba58.chunk.js": "/upgraded-umbrella/static/js/2.2eb9ba58.chunk.js",
+    "static/js/2.2eb9ba58.chunk.js.map": "/upgraded-umbrella/static/js/2.2eb9ba58.chunk.js.map",
     "index.html": "/upgraded-umbrella/index.html",
-    "static/css/main.a617e044.chunk.css.map": "/upgraded-umbrella/static/css/main.a617e044.chunk.css.map",
-    "static/js/2.10fe67c3.chunk.js.LICENSE.txt": "/upgraded-umbrella/static/js/2.10fe67c3.chunk.js.LICENSE.txt",
-    "static/media/logo.6ce24c58.svg": "/upgraded-umbrella/static/media/logo.6ce24c58.svg"
+    "static/css/main.b4756b6a.chunk.css.map": "/upgraded-umbrella/static/css/main.b4756b6a.chunk.css.map",
+    "static/js/2.2eb9ba58.chunk.js.LICENSE.txt": "/upgraded-umbrella/static/js/2.2eb9ba58.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/upgraded-umbrella/static/media/bg.0b82e5fa.png",
+    "static/media/index.css": "/upgraded-umbrella/static/media/gill-regular.dff1705a.woff2",
+    "static/media/pdi__dark.a43aac2b.svg": "/upgraded-umbrella/static/media/pdi__dark.a43aac2b.svg",
+    "static/media/pdi__light.0bc56cd4.svg": "/upgraded-umbrella/static/media/pdi__light.0bc56cd4.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.bbe0b7fe.js",
-    "static/js/2.10fe67c3.chunk.js",
-    "static/css/main.a617e044.chunk.css",
-    "static/js/main.afb137cc.chunk.js"
+    "static/js/runtime-main.a67b3e8c.js",
+    "static/js/2.2eb9ba58.chunk.js",
+    "static/css/main.b4756b6a.chunk.css",
+    "static/js/main.aa0b7100.chunk.js"
   ]
 }
