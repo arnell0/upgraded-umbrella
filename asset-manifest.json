@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/upgraded-umbrella/static/css/main.a617e044.chunk.css",
+    "main.js": "/upgraded-umbrella/static/js/main.afb137cc.chunk.js",
+    "main.js.map": "/upgraded-umbrella/static/js/main.afb137cc.chunk.js.map",
+    "runtime-main.js": "/upgraded-umbrella/static/js/runtime-main.bbe0b7fe.js",
+    "runtime-main.js.map": "/upgraded-umbrella/static/js/runtime-main.bbe0b7fe.js.map",
+    "static/js/2.10fe67c3.chunk.js": "/upgraded-umbrella/static/js/2.10fe67c3.chunk.js",
+    "static/js/2.10fe67c3.chunk.js.map": "/upgraded-umbrella/static/js/2.10fe67c3.chunk.js.map",
+    "static/js/3.b2acec1b.chunk.js": "/upgraded-umbrella/static/js/3.b2acec1b.chunk.js",
+    "static/js/3.b2acec1b.chunk.js.map": "/upgraded-umbrella/static/js/3.b2acec1b.chunk.js.map",
+    "index.html": "/upgraded-umbrella/index.html",
+    "static/css/main.a617e044.chunk.css.map": "/upgraded-umbrella/static/css/main.a617e044.chunk.css.map",
+    "static/js/2.10fe67c3.chunk.js.LICENSE.txt": "/upgraded-umbrella/static/js/2.10fe67c3.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/upgraded-umbrella/static/media/logo.6ce24c58.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.bbe0b7fe.js",
+    "static/js/2.10fe67c3.chunk.js",
+    "static/css/main.a617e044.chunk.css",
+    "static/js/main.afb137cc.chunk.js"
+  ]
+}
