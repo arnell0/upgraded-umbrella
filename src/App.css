@@ -1,0 +1,201 @@
+/* Wrapper around switch */
+.wrapper__switch {
+  padding: 15px;
+  background-color: white;
+
+  --pillar--padding: 20px;
+  --pillar__logo--width: 84px;
+}
+
+.wrapper__pillar {
+  position: absolute;
+  top: 0;
+  left: calc(
+    50% - calc(var(--pillar__logo--width) / 2) - var(--pillar--padding)
+  );
+}
+.pillar {
+  padding: var(--pillar--padding);
+  padding-top: 60px;
+  background-color: black;
+}
+.pillar__logo {
+  height: auto;
+  width: var(--pillar__logo--width);
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 60px;
+}
+.footer__logo {
+  height: auto;
+  width: var(--pillar__logo--width);
+}
+
+/* classes to be used in components */
+.component__wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.component__background {
+  max-width: 800px;
+  width: 100%;
+  border-left: 2px solid black;
+  border-right: 2px solid black;
+  background-color: black;
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.5) 0%,
+      rgba(0, 0, 0, 1) 50%
+    ),
+    url("/home/arnell/React/upgraded-umbrella/src/assets/images/bg.png");
+  background-position: top;
+  background-repeat: no-repeat;
+  color: white;
+
+  padding-top: 170px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.component__inner {
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  justify-content: flex-start;
+}
+.component__inner__header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.component__title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.component__title h2 {
+  letter-spacing: 3.5px;
+  margin-bottom: 10px;
+  font-size: 30px;
+}
+.component__title hr {
+  width: 90%;
+  margin-bottom: 30px;
+}
+.component__footer {
+}
+.component__wrapper h1 {
+  width: 90%;
+  letter-spacing: 3.5px;
+  text-transform: uppercase;
+  font-size: 30px;
+}
+.component__spacer {
+  height: 60px;
+}
+.component__spacer--small {
+  height: 40px;
+}
+.component__answers {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: all 0.3s ease-in-out;
+}
+.component__answers--min {
+  transform: scaleY(0);
+  transition: all 0.3s ease-in-out;
+}
+.component__answer {
+  padding: 25px 0;
+  border-top: 3px solid #191919;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.component__answer--inner {
+  width: 80%;
+}
+.component__text {
+  font-size: 28px;
+  width: 80%;
+}
+.component__text--end {
+  font-weight: 700;
+  text-align: center;
+  letter-spacing: 1.5px;
+}
+.component__endtext {
+  font-size: 32px;
+  text-align: center;
+}
+.component__endtext--title {
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  margin-bottom: 20px;
+}
+
+/* RadioButton */
+.RadioButton {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  width: 90%;
+  -webkit-transition: all 0.1s ease-in-out;
+  -moz-transition: all 0.1s ease-in-out;
+  -o-transition: all 0.1s ease-in-out;
+  transition: all 0.1s ease-in-out;
+}
+.RadioButton__outer {
+  border: 3px solid white;
+  border-radius: 50%;
+  padding: 8px;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+@media only screen and (min-width: 1000px) {
+  .RadioButton__outer:hover .RadioButton__inner {
+    background-color: white;
+    -webkit-transition: all 0.12s ease-in-out;
+    -moz-transition: all 0.12s ease-in-out;
+    -o-transition: all 0.12s ease-in-out;
+    transition: all 0.12s ease-in-out;
+  }
+  .RadioButton__outer:active .RadioButton__inner {
+    transform: scale(0.9);
+    -webkit-transition: all 0.12s ease-in-out;
+    -moz-transition: all 0.12s ease-in-out;
+    -o-transition: all 0.12s ease-in-out;
+    transition: all 0.12s ease-in-out;
+  }
+}
+
+.RadioButton__inner {
+  background-color: none;
+  border-radius: 50%;
+  height: 28px;
+  width: 28px;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+.RadioButton__inner__hover--active {
+  background-color: white;
+}
+.RadioButton__text {
+  font-size: 28px;
+  text-align: center;
+}

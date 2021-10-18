@@ -1,0 +1,190 @@
+/* LinkButton */
+.LinkButton__wrapper {
+  width: 70%;
+  max-width: 300px;
+}
+.LinkButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  padding: 30px;
+  border: 3px solid white;
+  border-radius: 12px;
+
+  cursor: pointer;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+.LinkButton:hover {
+  background-color: white;
+  color: black;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+.LinkButton h2 {
+  letter-spacing: 5px;
+  text-transform: uppercase;
+}
+
+/* LinkArrow */
+.LinkArrow {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+
+  padding-bottom: 5px;
+  cursor: pointer;
+
+  border-bottom: 2px solid rgba(255, 255, 255, 0);
+}
+.LinkArrow:hover {
+  border-bottom: 2px solid white;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+.LinkArrow img {
+  margin-left: 15px;
+  height: auto;
+  width: 24px;
+}
+.LinkArrow:hover img {
+  transform: translateX(4px);
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+.LinkArrowBold {
+}
+.LinkArrowBold img {
+  margin-left: 10px;
+}
+.LinkArrowBold h4 {
+  font-size: 20px;
+  text-align: right;
+  letter-spacing: 1px;
+}
+.LinkArrowLight {
+}
+.LinkArrowLight h4 {
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 4px;
+}
+.LinkArrowDark {
+  margin-top: 60px;
+  justify-content: center;
+}
+.LinkArrowDark p {
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 2px;
+  font-size: 28px;
+  font-weight: bold;
+  width: min-content;
+}
+.LinkArrowDark p span {
+  border-bottom: 2px solid black;
+}
+
+/* ScrollDown */
+@-webkit-keyframes ScrollDownArrow {
+  0%,
+  100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(5px);
+  }
+}
+@-moz-keyframes ScrollDownArrow {
+  0%,
+  100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(5px);
+  }
+}
+@-o-keyframes ScrollDownArrow {
+  0%,
+  100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(5px);
+  }
+}
+@keyframes ScrollDownArrow {
+  0%,
+  100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(5px);
+  }
+}
+
+.ScrollDown {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.ScrollDown p {
+  font-size: larger;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+.ScrollDown img {
+  height: auto;
+  width: 36px;
+  -webkit-animation: ScrollDownArrow 3s infinite; /* Safari 4+ */
+  -moz-animation: ScrollDownArrow 3s infinite; /* Fx 5+ */
+  -o-animation: ScrollDownArrow 3s infinite; /* Opera 12+ */
+  animation: ScrollDownArrow 3s infinite; /* IE 10+, Fx 29+ */
+}
+
+/* Refresh Button */
+.RefreshButton {
+  background-color: white;
+  height: 120px;
+  border: 2px solid black;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  cursor: pointer;
+}
+.RefreshButton h2 {
+  color: inherit;
+  font-size: 18px;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  border-bottom: 2px solid black;
+}
+.RefreshButton img {
+  width: auto;
+  height: 38px;
+  margin-left: 20px;
+  -webkit-transition: all 0.15s ease-in-out;
+  -moz-transition: all 0.15s ease-in-out;
+  -o-transition: all 0.15s ease-in-out;
+  transition: all 0.15s ease-in-out;
+}
+.RefreshButton:hover img {
+  transform: rotate(25deg);
+  -webkit-transition: all 0.15s ease-in-out;
+  -moz-transition: all 0.15s ease-in-out;
+  -o-transition: all 0.15s ease-in-out;
+  transition: all 0.15s ease-in-out;
+}
