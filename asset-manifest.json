@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/upgraded-umbrella/static/css/main.6d6ef513.chunk.css",
+    "main.css": "/upgraded-umbrella/static/css/main.7bc19948.chunk.css",
     "main.js": "/upgraded-umbrella/static/js/main.3bf9f258.chunk.js",
     "main.js.map": "/upgraded-umbrella/static/js/main.3bf9f258.chunk.js.map",
     "runtime-main.js": "/upgraded-umbrella/static/js/runtime-main.a67b3e8c.js",
@@ -8,7 +8,7 @@
     "static/js/2.fcb39f1e.chunk.js": "/upgraded-umbrella/static/js/2.fcb39f1e.chunk.js",
     "static/js/2.fcb39f1e.chunk.js.map": "/upgraded-umbrella/static/js/2.fcb39f1e.chunk.js.map",
     "index.html": "/upgraded-umbrella/index.html",
-    "static/css/main.6d6ef513.chunk.css.map": "/upgraded-umbrella/static/css/main.6d6ef513.chunk.css.map",
+    "static/css/main.7bc19948.chunk.css.map": "/upgraded-umbrella/static/css/main.7bc19948.chunk.css.map",
     "static/js/2.fcb39f1e.chunk.js.LICENSE.txt": "/upgraded-umbrella/static/js/2.fcb39f1e.chunk.js.LICENSE.txt",
     "static/media/arrow-down-light.86bff14f.svg": "/upgraded-umbrella/static/media/arrow-down-light.86bff14f.svg",
     "static/media/arrow-right-light.a6728fef.svg": "/upgraded-umbrella/static/media/arrow-right-light.a6728fef.svg",
@@ -22,7 +22,7 @@
   "entrypoints": [
     "static/js/runtime-main.a67b3e8c.js",
     "static/js/2.fcb39f1e.chunk.js",
-    "static/css/main.6d6ef513.chunk.css",
+    "static/css/main.7bc19948.chunk.css",
     "static/js/main.3bf9f258.chunk.js"
   ]
 }
